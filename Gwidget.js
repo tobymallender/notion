@@ -8,6 +8,9 @@ var today = new Date();
 var hour = zeros(twelveHour(today.getHours()));
 var minutes = zeros(today.getMinutes());
 var seconds = zeros(today.getSeconds());
+
+let name = prompt("What is your name?");
+
 if(today.getHours() >=12){
     seconds+=" pm"
 }
@@ -16,11 +19,11 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 12)
-        greet = 'Good Morning, Toby  ';
+        greet = `Good morning ${name}`;
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon, Toby ';
+        greet = `Good afternoon ${name}`;
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening, Toby  ';
+        greet = `Good evening ${name}`;
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
