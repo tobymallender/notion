@@ -1,0 +1,74 @@
+/*CSS RESETS*/
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/Oswald-VariableFont_wght.ttf');
+}
+
+body{
+    font-family: 'Oswald';
+    background-color: #737373;
+    line-height: 1.6;
+    width:250px;
+    height:125px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/*CSS START*/
+
+.full-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card {
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    background: #009688;
+    color: #fff;
+    display: inline-block;
+    box-shadow: none;
+    transition: all 0.65s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    margin-top: 2px;
+    box-shadow: 4px 4px 1px 0 #295C7B;
+}
+
+.clock {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.4em;
+    /* padding-left: 20px; */
+}
+
+.time {
+    display: inline-block;
+    min-width: 37px;
+}
+
+.colon {
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+.date, .greet {
+    display: block;
+    min-width: 162px;
+    /* padding-right: 30px; */
+    /* border-right: 2px solid #295C7B; */
+    font-size: 1.5em;
+    /* the date and greet classes had the same properties so i*/
+    /* applied the properties to both at once.*/
+}
