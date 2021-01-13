@@ -1,11 +1,11 @@
 /*CSS RESETS*/
 @font-face {
-    font-family: 'Yusei Magic';
+    font-family: 'Yusei Magic', sans-serif;
     src: url(Yusei_Magic/YuseiMagic-Regular.ttf);
 }
 
 body{
-    font-family: 'Yusei Magic';
+    font-family: 'Yusei Magic', sans-serif;
     background-color: #737373;
     line-height: 1.6;
 }
@@ -34,12 +34,14 @@ h1 {
     background: #009688;
     color: #fff;
     display: inline-block;
-    box-shadow: 2px 2px 1px 0px #295C7B;
+    box-shadow: none;
+    transition: all 1s ease-in-out;
 }
 
 .card:hover {
+    transform: scale(1.15);
     margin-top: 2px;
-    box-shadow: none;
+    box-shadow: 3px 3px 1px 0 #295C7B;
 }
 
 .clock {
