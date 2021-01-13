@@ -1,13 +1,15 @@
 /*CSS RESETS*/
 @font-face {
-    font-family: 'Yusei Magic', sans-serif;
-    src: url(Yusei_Magic/YuseiMagic-Regular.ttf);
+    font-family: 'Oswald';
+    src: url('fonts/Oswald-VariableFont_wght.ttf');
 }
 
 body{
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Oswald';
     background-color: #737373;
     line-height: 1.6;
+    width:250px;
+    height:125px;
 }
 
 h1 {
@@ -35,20 +37,19 @@ h1 {
     color: #fff;
     display: inline-block;
     box-shadow: none;
-    transition: all 1s ease-in-out;
+    transition: all 0.65s ease-in-out;
 }
 
 .card:hover {
     transform: scale(1.15);
     margin-top: 2px;
-    box-shadow: 3px 3px 1px 0 #295C7B;
+    box-shadow: 4px 4px 1px 0 #295C7B;
 }
 
 .clock {
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
     /* padding-left: 20px; */
 }
 
@@ -67,8 +68,7 @@ h1 {
     min-width: 162px;
     /* padding-right: 30px; */
     /* border-right: 2px solid #295C7B; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     /* the date and greet classes had the same properties so i*/
     /* applied the properties to both at once.*/
 }
