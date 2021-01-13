@@ -1,20 +1,18 @@
 /*CSS RESETS*/
 @font-face {
-    src: url(./Yusei_Magic/YuseiMagic-Regular.ttf);
     font-family: 'Yusei Magic';
+    src: url(Yusei_Magic/YuseiMagic-Regular.ttf);
 }
 
 body{
     font-family: 'Yusei Magic';
     background-color: #737373;
     line-height: 1.6;
-
 }
 
 h1 {
     margin-top: 0;
 }
-
 
 /*CSS START*/
 
@@ -62,18 +60,13 @@ h1 {
     display: inline-block;
 }
 
-.date {
+.date, .greet {
     display: block;
     min-width: 162px;
     /* padding-right: 30px; */
     /* border-right: 2px solid #295C7B; */
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-}
-.greet{
-    
-    min-width: 162px;
-    /* padding-right: 30px; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    /* the date and greet classes had the same properties so i*/
+    /* applied the properties to both at once.*/
 }
